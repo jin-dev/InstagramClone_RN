@@ -6,6 +6,9 @@
  * @flow strict-local
  */
 //https://www.youtube.com/watch?v=r7f03VJ8bDE
+
+//Part 2
+//https://www.youtube.com/watch?v=nBz4k-F9g5E
 import React from 'react';
 import {StyleSheet, StatusBar, SafeAreaView} from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
