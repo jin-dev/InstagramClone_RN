@@ -1,6 +1,7 @@
 import React from 'react';
 import {FlatList} from 'react-native';
 import Post from '../Post';
+import Stories from '../../components/Stories';
 const data = [
   {
     user: {
@@ -38,7 +39,9 @@ const data = [
 ];
 
 const Feed = () => (
-  <FlatList data={data} renderItem={({item}) => <Post post={item} />} />
+  <FlatList data={data} renderItem={({item}) => <Post post={item} />}
+  ListHeaderComponent={Stories}
+  />
 );
 
 export default Feed;
